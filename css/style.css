@@ -1525,6 +1525,10 @@ body.light hr.separator {
 }
 
 @media (max-width: 576px) {
+  html,body {
+    overflow-x: hidden;
+  }
+
   .btn {
     font-size: 14px;
   }
